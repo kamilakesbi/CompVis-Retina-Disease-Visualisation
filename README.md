@@ -8,9 +8,9 @@ https://www.kaggle.com/paultimothymooney/kermany2018
 
 The idea is to add some interpretability to the classifier. I worked on two aspects : 
 
-- Feature map : I tried to extract some interesting feature maps from convolutional layers that could faciliate visual disease identification. 
+- Feature maps : I tried to extract some interesting feature maps from convolutional layers that could faciliate visual disease identification. 
 
-- Convolutional activation map (using Grad-CAM) : ni order to visualize what parts of an OCT picture the classifier focuses on when making its prediction. This can be useful to interpret the classifier and quickly detect a risk of misclassification. 
+- Convolutional activation map (using Grad-CAM) : in order to visualize what parts of an OCT picture the classifier focuses on when making its prediction. This can be useful to interpret the classifier and quickly detect a risk of misclassification. 
 
 I used a pretrained model found on Kaggle : 
 https://www.kaggle.com/plubinski/retinal-separableconv2d-99-validation
