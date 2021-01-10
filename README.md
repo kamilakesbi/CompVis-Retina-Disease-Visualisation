@@ -12,7 +12,7 @@ The idea is to add some interpretability to the classifier. I worked on two aspe
 
 - Convolutional activation map (using Grad-CAM) : ni order to visualize what parts of an OCT picture the classifier focuses on when making its prediction. This can be useful to interpret the classifier and quickly detect a risk of misclassification. 
 
-I use here a pretrained model found on Kaggle : 
+I used a pretrained model found on Kaggle : 
 https://www.kaggle.com/plubinski/retinal-separableconv2d-99-validation
 
 
