@@ -9,6 +9,15 @@ from tensorflow.keras.callbacks import ModelCheckpoint, ReduceLROnPlateau, Early
 
 
 def model(PARAMS) : 
+    """
+    Define keras model 
+    Parameters
+    ----------
+    PARAMS : dict 
+    Returns
+    -------
+    model
+    """
     
     inputs = Input(shape=(PARAMS['img_dims'], PARAMS['img_dims'], 3))
 
@@ -67,7 +76,16 @@ def model(PARAMS) :
     return model 
 
 
-def model_trainer(model): 
+def model_trainer(model):
+    """
+    To train the model 
+    Parameters
+    ----------
+    model : keras obejct model 
+    Returns
+    -------
+    history 
+    """
     history = model.fit_generator(
                train_gen, steps_per_epoch=train_gen.samples // PARAMS['batch_size'], 
                epochs=PARAMS['epochs'],

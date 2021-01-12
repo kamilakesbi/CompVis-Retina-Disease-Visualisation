@@ -2,6 +2,17 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 
 def process_data(train_path, test_path, img_dims, batch_size):
+    """
+    Creat Train set (with data augmentation) and test set using ImageDataGenerator
+    Parameters
+    ----------
+    train_path : path of train set
+    test_path : path of test set
+    batch_size : batch size considered by the iterator of the generator
+    Returns
+    -------
+    train_gen, test_gen (type : DirectoryIterator) 
+    """
     
     # Data generation objects
     train_datagen = ImageDataGenerator(
