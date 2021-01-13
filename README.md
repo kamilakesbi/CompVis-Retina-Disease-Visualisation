@@ -1,7 +1,7 @@
 # OCT for retina diseases classification :
 #### Over 0.99 accuracy + Interpretability using feature maps/grad-CAM
 
-In this project I developed some visualizing tools that could be added to a 0.99 accuracy model for classification of OCT pictures of retina among 4 classes (DME, Normal, Brusen, CNV). 
+In this project I developed some visualizing tools that could be added to a 0.99 accuracy model for classification of OCT pictures of retina among 4 classes (DME, Normal, Drusen, CNV). 
 
 The data set can be found here (Kaggle) : 
 https://www.kaggle.com/paultimothymooney/kermany2018
