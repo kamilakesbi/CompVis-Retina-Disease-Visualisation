@@ -6,7 +6,7 @@ In this project I developed some visualizing tools that could be added to a 0.99
 The data set can be found here (Kaggle) : 
 https://www.kaggle.com/paultimothymooney/kermany2018
 
-The idea is to add some interpretability to the classifier. I worked on two aspects : 
+The idea is to add interpretability to the classifier. I worked on two aspects : 
 
 - Feature maps : I tried to extract some interesting feature maps from convolutional layers that could faciliate visual disease identification. 
 
